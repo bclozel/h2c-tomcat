@@ -11,7 +11,7 @@
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<tomcat.version>9.0.55</tomcat.version>
+		<tomcat.version>9.0.62</tomcat.version>
 	</properties>
 	<dependencies>
 		<dependency>

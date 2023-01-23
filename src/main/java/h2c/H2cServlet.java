@@ -17,8 +17,8 @@ public class H2cServlet extends HttpServlet {
 			throws ServletException, IOException {
 		byte[] bytes = req.getInputStream().readAllBytes();
 		System.out.println(new String(bytes));
+		resp.setStatus(204);
 		ServletOutputStream out = resp.getOutputStream();
-		out.write("hello".getBytes());
 		out.flush();
 		out.close();
 	}
